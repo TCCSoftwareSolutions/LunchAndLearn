@@ -69,8 +69,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Readme.MD" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="Readme.MD" />
     <Content Include="Scripts\jquery-2.2.3.js" />
     <Content Include="Scripts\jquery-2.2.3.min.js" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
@@ -84,6 +84,7 @@
   <ItemGroup>
     <Content Include="Scripts\knockout.js" />
     <Content Include="WalkThru\Classes.html" />
+    <Content Include="WalkThru\Classes.js" />
     <Content Include="WalkThru\Extends.html" />
     <Content Include="WalkThru\Extends.js" />
     <Content Include="WalkThru\Interfaces.html" />
@@ -102,7 +103,6 @@
     <TypeScriptCompile Include="Scripts\knockout.d.ts" />
     <TypeScriptCompile Include="WalkThru\Classes.ts" />
     <TypeScriptCompile Include="WalkThru\Extends.ts" />
-    <TypeScriptCompile Include="WalkThru\file1.ts" />
     <TypeScriptCompile Include="WalkThru\Interfaces.ts" />
     <TypeScriptCompile Include="WalkThru\Module.ts" />
     <TypeScriptCompile Include="WalkThru\MyKnockout.ts" />
