@@ -4,11 +4,7 @@
 Installation
 ----------------------
 * [TypeScript] (https://www.typescriptlang.org/index.html#download-links)
-
-Visual Studio - Extensions and Updates
-
-* Github Extension for Visual Studio (not really necessary)
-* Web Essentials 2015.2
+* Github Extension for Visual Studio Extension
 
 Execution
 -----------------------
