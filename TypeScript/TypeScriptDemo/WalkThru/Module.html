@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<script src="Classes.js"></script>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="../Scripts/jquery-2.2.3.min.js"></script>
+    <script src="Module.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+
+            var r = new Calc.AreaCalculator('');
+
+            $('#rectangle')[0].value = r.calculateArea1(4, 5);
+            $('#square')[0].value = r.calculateArea1(4);
+
+        });
+
+    </script>
+</head>
+<body>
+    <br /><br />
+    Rectangle: <input id="rectangle" />
+    <br /><br />
+    Square: <input id="square" />
+</body>
+</html>

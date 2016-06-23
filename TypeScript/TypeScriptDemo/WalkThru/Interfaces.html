@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Interfaces</title>
+    <script src="../Scripts/jquery-2.2.3.min.js"></script>
+    <script src="Interfaces.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+
+            var shapes = new Shapes();
+            shapes.addShape(new Circle());
+            shapes.addShape(new Triangle());
+            shapes.draw();
+
+        });
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

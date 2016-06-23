@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Knockout</title>
+
+    <script src="../Scripts/jquery-2.2.3.min.js"></script>
+    <script src="../Scripts/knockout.js"></script>
+    <script src="MyKnockout.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            var vm = new ViewModel();
+            vm.firstName = "Mike";
+            vm.lastName = "Griffin";
+            ko.applyBindings(vm);
+        });
+
+    </script>
+</head>
+<body>
+
+    <p>First name: <input data-bind="value: firstName" /></p>
+    <p>Last name: <input data-bind="value: lastName" /></p>
+    <h2>Hello, <span data-bind="text: fullName"> </span>!</h2>
+
+</body>
+</html>
